@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1e40af;
+  --color-secondary: #1e293b;
+  --color-accent: #3b82f6;
+}
+
+/* Custom base styles if needed, or simply let Tailwind handle it */
+body {
+  background-color: var(--color-gray-50);
+  color: var(--color-gray-900);
+}
