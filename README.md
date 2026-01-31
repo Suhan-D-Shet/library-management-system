@@ -62,6 +62,22 @@ python -m uvicorn app.main:app --reload --port 8000
 The API will be available at: [http://localhost:8000](http://localhost:8000)
 Interactive Docs (Swagger UI): [http://localhost:8000/docs](http://localhost:8000/docs)
 
+### 6. Run the Frontend
+1. Open a new terminal.
+2. Navigate to the frontend directory:
+   ```bash
+   cd frontend
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+   The application will be available at: [http://localhost:5173](http://localhost:5173)
+
 ## Testing the System
 We have provided automated scripts to verify the core functionalities. Ensure the server is running before executing these.
 
